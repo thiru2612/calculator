@@ -7,14 +7,16 @@
 </head>
 <body>
     <center><h1>Calculator app</h1></center>
-    <table>
-        <tr>
-            <td colspan="2"><input type="text"></td>
-            <td><input type="button" id="clear" onclick="clear()"><input type="button" value="c"></td>
-        </tr>
-        <tr>
-            <td class="numer" onclick="display("1")"><input type="button" value="1"></td>
-        </tr>
-    </table>
+    <div class="container">
+        <table>
+            <tr>
+                <td colspan="3"><input type="text" class="result"></td>
+                <td><input type="button" id="clear" onclick="clear()"><input type="button" value="c"></td>
+            </tr>
+            <tr>
+                <td class="numer" onclick="display("1")"><input type="button" value="1"></td>
+            </tr>
+        </table>
+    </div>
 </body>
 </html>
