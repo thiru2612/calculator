@@ -10,11 +10,14 @@
     <div class="container">
         <table>
             <tr>
-                <td colspan="3"><input type="text" class="result"></td>
-                <td><input type="button" id="clear" onclick="clear()"><input type="button" value="c"></td>
+                <td colspan="3"><input type="text" id="result" class="screen"></td>
+                <td><input type="button" class="clear" onclick="clearScreen()" value="c"></td>
             </tr>
             <tr>
-                <td class="numer" onclick="display("1")"><input type="button" value="1"></td>
+                <td><input type="button" value="1" onclick="display('1')" class="number"></td>
+                <td><input type="button" value="2" onclick="display('2')" class="number"></td>
+                <td><input type="button" value="3" onclick="display('3')" class="number"></td>
+                <td><input type="button" value="/" onclick="display('/')" class="operator"></td>
             </tr>
         </table>
     </div>
